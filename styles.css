@@ -33,27 +33,20 @@ a {
 .link {
     width: 50%;
     height: 60px;
-    /*border-radius: 60px;*/
     background: #fdcb25;
     margin: 30px auto;
     color: #fff;
-}
-
-.link:hover{
-    border: 2px solid#fdcb25;
-    background-color: #fff;
-    cursor: pointer;
-}
-
-.link p {
     line-height: 60px;
     font-size: 1rem;
-    color: #fff;
     transition: .5s;
 }
 
-.link p:hover {
+.link:hover{
     color: #fdcb25;
+    background-color: #fff;
+    border: 2px solid#fdcb25;
+    cursor: pointer;
+    transform: scale(1.04);
 }
 
 footer {
